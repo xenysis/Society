@@ -1,0 +1,1410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vinayak Club - Official Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="light-mode">
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <span>VinayakClub</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fas fa-home"></i> Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about"><i class="fas fa-info-circle"></i> About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#donors"><i class="fas fa-hand-holding-heart"></i> Donors</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#ganeshpuja"><i class="fas fa-om"></i> GaneshPuja</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#activities"><i class="fas fa-calendar-alt"></i> Activities</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact"><i class="fas fa-envelope"></i> Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#donateModal">
+                            <i class="fas fa-heart"></i> Donate
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#joinModal">
+                            <i class="fas fa-user-plus"></i> Join Us
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://facebook.com/vinayakclub" target="_blank">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://instagram.com/vinayakclub" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://twitter.com/vinayakclub" target="_blank">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <button id="theme-toggle" class="nav-link">
+                            <i class="fas fa-moon"></i>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="container">
+            <div class="hero-text">
+                <h1 class="hero-line">WELCOME</h1>
+                <h1 class="hero-line">TO</h1>
+                <h1 class="hero-line">VINAYAKCLUB</h1>
+            </div>
+            <p>Empowering communities through education, health, and sustainable development initiatives.</p>
+            <div class="hero-buttons">
+                <a href="#about" class="btn btn-primary">Learn More</a>
+                <a href="#contact" class="btn btn-outline-light">Contact Us</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section" id="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>About Vinayak Club</h2>
+                    <p>Welcome to Vinayak Club Association!
+
+                 At Vinayak Club Association, we are dedicated to community welfare, social development, and empowerment. Established with a vision to uplift society, we work towards education, healthcare, environmental sustainability, and skill development to create a better future for all.</p>
+                    <p>💡 Why Choose Us?<br>
+                        ✅ A registered and legally recognized welfare association.<br>
+                        ✅ A team of passionate individuals dedicated to social service.<br>
+                        ✅ Transparent & accountable in all our activities.<br>
+                        ✅ Collaborating with NGOs, government bodies, and corporate CSR programs to maximize impact.</p>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <div class="stat-number">500+</div>
+                            <div class="stat-label">Lives Impacted</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">50+</div>
+                            <div class="stat-label">Community Projects</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">100+</div>
+                            <div class="stat-label">Active Volunteers</div>
+                        </div>
+                    </div>
+                    <a href="#" class="btn btn-primary mt-4">Join Our Mission</a>
+                </div>
+                <div class="about-image">
+                    <img src="images/ABOUT2.jpg"width=100% alt="Vinayak Club Team">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Leadership Team Section -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center section-title mb-5">Our Leadership Team</h2>
+            <div class="row g-2 leadership-row">
+                <!-- President -->
+                <div class="col-6 col-md-2">
+                    <div class="leader-card">
+                        <div class="leader-img">
+                            <img src="images/bhanja.jpg" alt="Bhanja">
+                        </div>
+                        <div class="leader-info">
+                            <h5>Bhanja Kishore</h5>
+                            <p>President</p>
+                            <div class="contact-buttons">
+                                <a href="https://wa.me/917606003424" class="btn btn-success">
+                                    <i class="fab fa-whatsapp me-1"></i> WhatsApp
+                                </a>
+                                <a href="tel:+917606003424" class="btn btn-primary">
+                                    <i class="fas fa-phone me-1"></i> Call
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Vice President -->
+                <div class="col-6 col-md-2">
+                    <div class="leader-card">
+                        <div class="leader-img">
+                            <img src="images/nari.jpg" alt="Anant">
+                        </div>
+                        <div class="leader-info">
+                            <h5>Anant Kumar</h5>
+                            <p>Vice President</p>
+                            <div class="contact-buttons">
+                                <a href="https://wa.me/917605905932" class="btn btn-success">
+                                    <i class="fab fa-whatsapp me-1"></i> WhatsApp
+                                </a>
+                                <a href="tel:+917605905932" class="btn btn-primary">
+                                    <i class="fas fa-phone me-1"></i> Call
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Secretary -->
+                <div class="col-6 col-md-2">
+                    <div class="leader-card">
+                        <div class="leader-img">
+                            <img src="images/bubu.jpg" alt="Jitendra Behera">
+                        </div>
+                        <div class="leader-info">
+                            <h5>Jitendra Behera</h5>
+                            <p>Secretary</p>
+                            <div class="contact-buttons">
+                                <a href="https://wa.me/917381967859" class="btn btn-success">
+                                    <i class="fab fa-whatsapp me-1"></i> WhatsApp
+                                </a>
+                                <a href="tel:+917381967859" class="btn btn-primary">
+                                    <i class="fas fa-phone me-1"></i> Call
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Treasurer -->
+                <div class="col-6 col-md-2">
+                    <div class="leader-card">
+                        <div class="leader-img">
+                            <img src="images/sila.jpg" alt="Soumya">
+                        </div>
+                        <div class="leader-info">
+                            <h5>Soumya Ranjan</h5>
+                            <p>Treasurer</p>
+                            <div class="contact-buttons">
+                                <a href="https://wa.me/919124446630" class="btn btn-success">
+                                    <i class="fab fa-whatsapp me-1"></i> WhatsApp
+                                </a>
+                                <a href="tel:+919124446630" class="btn btn-primary">
+                                    <i class="fas fa-phone me-1"></i> Call
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Event Coordinator -->
+                <div class="col-6 col-md-2">
+                    <div class="leader-card">
+                        <div class="leader-img">
+                            <img src="images/gulu.jpg" alt="Gulu">
+                        </div>
+                        <div class="leader-info">
+                            <h5>Abhijit Behera</h5>
+                            <p>Executive Member</p>
+                            <div class="contact-buttons">
+                                <a href="https://wa.me/919668763819" class="btn btn-success">
+                                    <i class="fab fa-whatsapp me-1"></i> WhatsApp
+                                </a>
+                                <a href="tel:+919668763819" class="btn btn-primary">
+                                    <i class="fas fa-phone me-1"></i> Call
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Public Relations -->
+                <div class="col-6 col-md-2">
+                    <div class="leader-card">
+                        <div class="leader-img">
+                            <img src="images/dipuni.jpg" alt="Ashish Behera">
+                        </div>
+                        <div class="leader-info">
+                            <h5>Ashish Behera</h5>
+                            <p>Executive Member</p>
+                            <div class="contact-buttons">
+                                <a href="https://wa.me/916371455406" class="btn btn-success">
+                                    <i class="fab fa-whatsapp me-1"></i> WhatsApp
+                                </a>
+                                <a href="tel:+916371455406" class="btn btn-primary">
+                                    <i class="fas fa-phone me-1"></i> Call
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Activities Section -->
+    <section class="activities-section" id="activities">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2>Our Activities</h2>
+                <p>Making a difference in society through various initiatives</p>
+            </div>
+            <div class="activities-row">
+                <!-- Social Welfare Activities -->
+                <div class="activity-item">
+                    <div class="activity-image" style="background-image: url('https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=800&h=600&fit=crop')">
+                        <div class="activity-overlay">
+                            <h3>Social Welfare</h3>
+                            <button class="expand-btn"><i class="fas fa-plus"></i></button>
+                        </div>
+                    </div>
+                    <div class="activity-details">
+                        <ul class="activity-list">
+                            <li>Food & Clothes Distribution</li>
+                            <li>Women Empowerment Programs</li>
+                            <li>Blood Donation & Medical Camps</li>
+                            <li>Disaster Relief Support</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Educational Programs -->
+                <div class="activity-item">
+                    <div class="activity-image" style="background-image: url('https://images.unsplash.com/photo-1577896851231-70ef18881754?w=800&h=600&fit=crop')">
+                        <div class="activity-overlay">
+                            <h3>Education & Skills</h3>
+                            <button class="expand-btn"><i class="fas fa-plus"></i></button>
+                        </div>
+                    </div>
+                    <div class="activity-details">
+                        <ul class="activity-list">
+                            <li>Computer Literacy & IT Training</li>
+                            <li>Scholarship Assistance</li>
+                            <li>Career Guidance & Coaching</li>
+                            <li>Competitive Exam Preparation</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Health & Hygiene -->
+                <div class="activity-item">
+                    <div class="activity-image" style="background-image: url('https://images.unsplash.com/photo-1521791136064-7986c2920216?w=800&h=600&fit=crop')">
+                        <div class="activity-overlay">
+                            <h3>Health & Hygiene</h3>
+                            <button class="expand-btn"><i class="fas fa-plus"></i></button>
+                        </div>
+                    </div>
+                    <div class="activity-details">
+                        <ul class="activity-list">
+                            <li>Sanitation Drives</li>
+                            <li>Yoga & Fitness Camps</li>
+                            <li>Mental Health Awareness</li>
+                            <li>Vaccination & Nutrition Camps</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Sports & Cultural -->
+                <div class="activity-item">
+                    <div class="activity-image" style="background-image: url('https://images.unsplash.com/photo-1559027615-cd4628902d4a?w=800&h=600&fit=crop')">
+                        <div class="activity-overlay">
+                            <h3>Sports & Cultural</h3>
+                            <button class="expand-btn"><i class="fas fa-plus"></i></button>
+                        </div>
+                    </div>
+                    <div class="activity-details">
+                        <ul class="activity-list">
+                            <li>Cultural Festivals & Events</li>
+                            <li>Talent Hunt Programs</li>
+                            <li>Film Screening Sessions</li>
+                            <li>Youth Engagement Programs</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Environmental -->
+                <div class="activity-item">
+                    <div class="activity-image" style="background-image: url('https://images.unsplash.com/photo-1521791136064-7986c2920216?w=800&h=600&fit=crop')">
+                        <div class="activity-overlay">
+                            <h3>Environmental</h3>
+                            <button class="expand-btn"><i class="fas fa-plus"></i></button>
+                        </div>
+                    </div>
+                    <div class="activity-details">
+                        <ul class="activity-list">
+                            <li>Tree Plantation Drives</li>
+                            <li>Waste Management</li>
+                            <li>Water Conservation</li>
+                            <li>Wildlife Protection</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Social Justice -->
+                <div class="activity-item">
+                    <div class="activity-image" style="background-image: url('https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=800&h=600&fit=crop')">
+                        <div class="activity-overlay">
+                            <h3>Social Justice</h3>
+                            <button class="expand-btn"><i class="fas fa-plus"></i></button>
+                        </div>
+                    </div>
+                    <div class="activity-details">
+                        <ul class="activity-list">
+                            <li>Voter Awareness Drives</li>
+                            <li>Community Police Partnership</li>
+                            <li>Legal Awareness Programs</li>
+                            <li>Social Justice Initiatives</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Fundraising -->
+                <div class="activity-item">
+                    <div class="activity-image" style="background-image: url('https://images.unsplash.com/photo-1559027615-cd4628902d4a?w=800&h=600&fit=crop')">
+                        <div class="activity-overlay">
+                            <h3>Fundraising</h3>
+                            <button class="expand-btn"><i class="fas fa-plus"></i></button>
+                        </div>
+                    </div>
+                    <div class="activity-details">
+                        <ul class="activity-list">
+                            <li>Charity Runs & Marathons</li>
+                            <li>Donation Drives</li>
+                            <li>CSR Collaborations</li>
+                            <li>Social Enterprises</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="py-5">
+        <div class="container">
+            <h2 class="section-title text-center mb-5">Our Gallery</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item" data-bs-toggle="modal" data-bs-target="#galleryModal" data-folder="traditional-ceremony">
+                    <div class="gallery-image">
+                        <img src="images/gallery/traditional-ceremony/main.jpg" alt="Our Traditional Ceremony">
+                        <div class="gallery-overlay">
+                            <div class="gallery-info">
+                                <h4>Our Traditional Ceremony</h4>
+                                <p>Celebrating our cultural heritage</p>
+                                <span class="view-more">View More</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-bs-toggle="modal" data-bs-target="#galleryModal" data-folder="food-distribution">
+                    <div class="gallery-image">
+                        <img src="images/gallery/food-distribution/main.jpg" alt="Food Distribution">
+                        <div class="gallery-overlay">
+                            <div class="gallery-info">
+                                <h4>Food Distribution</h4>
+                                <p>Supporting families in need</p>
+                                <span class="view-more">View More</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-bs-toggle="modal" data-bs-target="#galleryModal" data-folder="medical-camp">
+                    <div class="gallery-image">
+                        <img src="images/gallery/medical-camp/main.jpg" alt="Medical Camp">
+                        <div class="gallery-overlay">
+                            <div class="gallery-info">
+                                <h4>Medical Camp</h4>
+                                <p>Providing healthcare services</p>
+                                <span class="view-more">View More</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-bs-toggle="modal" data-bs-target="#galleryModal" data-folder="education-support">
+                    <div class="gallery-image">
+                        <img src="images/gallery/education-support/main.jpg" alt="Education Support">
+                        <div class="gallery-overlay">
+                            <div class="gallery-info">
+                                <h4>Education Support</h4>
+                                <p>Empowering young minds</p>
+                                <span class="view-more">View More</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-bs-toggle="modal" data-bs-target="#galleryModal" data-folder="community-service">
+                    <div class="gallery-image">
+                        <img src="images/gallery/community-service/main.jpg" alt="Community Service">
+                        <div class="gallery-overlay">
+                            <div class="gallery-info">
+                                <h4>Community Service</h4>
+                                <p>Making a difference together</p>
+                                <span class="view-more">View More</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-bs-toggle="modal" data-bs-target="#galleryModal" data-folder="volunteer-work">
+                    <div class="gallery-image">
+                        <img src="images/gallery/volunteer-work/main.jpg" alt="Volunteer Work">
+                        <div class="gallery-overlay">
+                            <div class="gallery-info">
+                                <h4>Volunteer Work</h4>
+                                <p>Dedicated to community service</p>
+                                <span class="view-more">View More</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Modal -->
+    <div class="modal fade" id="galleryModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content bg-transparent border-0">
+                <div class="modal-header border-0">
+                    <h5 class="modal-title text-white"></h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body p-0">
+                    <div id="galleryCarousel" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <!-- Images will be loaded here dynamically -->
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#galleryCarousel" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#galleryCarousel" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="section-title text-center mb-5">Contact Us</h2>
+            <div class="row">
+                <!-- Contact Info -->
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                    <div class="contact-info-card">
+                        <div class="contact-info-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Our Location</h4>
+                                <p>At- Banapur,Po-Basudebpur, Via-KuanPal,Dist-Cuttack,Odisha,Pin-754204</p>
+                            </div>
+                        </div>
+                        <div class="contact-info-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Phone Numbers</h4>
+                                <p>+91 8455888617</p>
+                                <p>+91 8455888617</p>
+                            </div>
+                        </div>
+                        <div class="contact-info-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Email Address</h4>
+                                <p>info@vinayakclub.org</p>
+                                <p>support@vinayakclub.org</p>
+                            </div>
+                        </div>
+                        <div class="contact-info-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Working Hours</h4>
+                                <p>Monday - Friday: 9:00 AM - 6:00 PM</p>
+                                <p>Saturday: 10:00 AM - 4:00 PM</p>
+                                <p>Sunday: Closed</p>
+                            </div>
+                        </div>
+                        <div class="social-links mt-4">
+                            <h4>Follow Us</h4>
+                            <div class="social-icons">
+                                <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                                <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                                <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Contact Form -->
+                <div class="col-lg-8">
+                    <div class="card">
+                        <div class="card-body">
+                            <form id="contactForm">
+                                <div class="row mb-3">
+                                    <div class="col-md-6 mb-3 mb-md-0">
+                                        <input type="text" class="form-control" placeholder="Your Name" required>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <input type="email" class="form-control" placeholder="Your Email" required>
+                                    </div>
+                                </div>
+                                <div class="mb-3">
+                                    <input type="text" class="form-control" placeholder="Subject" required>
+                                </div>
+                                <div class="mb-3">
+                                    <textarea class="form-control" rows="5" placeholder="Your Message" required></textarea>
+                                </div>
+                                <div class="text-end">
+                                    <button type="submit" class="btn btn-primary">Send Message</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4 mb-md-0">
+                    <h5>Vinayak Club</h5>
+                    <p>A registered society dedicated to community service and social welfare.</p>
+                    <p>Registration No: VCR-12345-2020</p>
+                </div>
+                <div class="col-md-4 mb-4 mb-md-0">
+                    <h5>Contact Information</h5>
+                    <p><i class="fas fa-map-marker-alt me-2"></i> At- Banapur,Po-Basudebpur, Via-KuanPal,Dist-Cuttack,Odisha,Pin-754204</p>
+                    <p><i class="fas fa-phone me-2"></i> +91 8455888617</p>
+                    <p><i class="fas fa-envelope me-2"></i> info@vinayakclub.org</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Follow Us</h5>
+                    <div class="social-icons">
+                        <a href="#" class="text-white me-3"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="text-white me-3"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-white me-3"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-white me-3"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="text-white"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-4">
+            <div class="text-center">
+                <p class="mb-0">&copy; 2025 Vinayak Club. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modals -->
+    <!-- Join Modal -->
+    <div class="modal fade" id="joinModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Join Vinayak Club</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="joinForm">
+                        <div class="mb-3">
+                            <label for="joinName" class="form-label">Full Name</label>
+                            <input type="text" class="form-control" id="joinName" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="joinEmail" class="form-label">Email Address</label>
+                            <input type="email" class="form-control" id="joinEmail" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="joinPhone" class="form-label">Phone Number</label>
+                            <input type="tel" class="form-control" id="joinPhone" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="joinAddress" class="form-label">Address</label>
+                            <textarea class="form-control" id="joinAddress" rows="3" required></textarea>
+                        </div>
+                        <div class="mb-3">
+                            <label for="joinReason" class="form-label">Why do you want to join?</label>
+                            <textarea class="form-control" id="joinReason" rows="3" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100">Submit Application</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Donate Modal -->
+    <div class="modal fade" id="donateModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header border-0">
+                    <h5 class="modal-title">Support Vinayak Club</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="donation-amounts mb-4">
+                        <div class="row g-2">
+                            <div class="col-4">
+                                <input type="radio" class="btn-check" name="donation-amount" id="amount1" value="500" autocomplete="off" checked>
+                                <label class="btn btn-outline-primary w-100" for="amount1">
+                                    <span class="amount">₹500</span>
+                                </label>
+                            </div>
+                            <div class="col-4">
+                                <input type="radio" class="btn-check" name="donation-amount" id="amount2" value="1000" autocomplete="off">
+                                <label class="btn btn-outline-primary w-100" for="amount2">
+                                    <span class="amount">₹1,000</span>
+                                </label>
+                            </div>
+                            <div class="col-4">
+                                <input type="radio" class="btn-check" name="donation-amount" id="amount3" value="5000" autocomplete="off">
+                                <label class="btn btn-outline-primary w-100" for="amount3">
+                                    <span class="amount">₹5,000</span>
+                                </label>
+                            </div>
+                            <div class="col-12">
+                                <input type="radio" class="btn-check" name="donation-amount" id="amount4" value="custom" autocomplete="off">
+                                <label class="btn btn-outline-primary w-100" for="amount4">
+                                    <span class="amount">Custom Amount</span>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="mt-3 custom-amount" style="display: none;">
+                            <div class="input-group">
+                                <span class="input-group-text">₹</span>
+                                <input type="number" class="form-control" id="customAmount" placeholder="Enter amount">
+                            </div>
+                        </div>
+                    </div>
+
+                    <form id="donationForm">
+                        <div class="mb-3">
+                            <label for="donateName" class="form-label">Full Name</label>
+                            <input type="text" class="form-control" id="donateName" placeholder="Enter your name" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="donateEmail" class="form-label">Email Address</label>
+                            <input type="email" class="form-control" id="donateEmail" placeholder="Enter your email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="donatePhone" class="form-label">Phone Number</label>
+                            <input type="tel" class="form-control" id="donatePhone" placeholder="Enter your phone number" required>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100 mt-3">
+                            <i class="fas fa-heart me-2"></i>Donate Now
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Login Modal -->
+    <div class="modal fade" id="loginModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Member Login</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="loginForm">
+                        <div class="mb-3">
+                            <label for="loginEmail" class="form-label">Email Address</label>
+                            <input type="email" class="form-control" id="loginEmail" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="loginPassword" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="loginPassword" required>
+                        </div>
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="rememberMe">
+                            <label class="form-check-label" for="rememberMe">Remember me</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100">Login</button>
+                        <div class="text-center mt-3">
+                            <a href="#" class="text-decoration-none">Forgot password?</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Sign Up Modal -->
+    <div class="modal fade" id="signupModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Member Sign Up</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="signupForm">
+                        <div class="mb-3">
+                            <label for="signupName" class="form-label">Full Name</label>
+                            <input type="text" class="form-control" id="signupName" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="signupEmail" class="form-label">Email Address</label>
+                            <input type="email" class="form-control" id="signupEmail" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="signupPhone" class="form-label">Phone Number</label>
+                            <input type="tel" class="form-control" id="signupPhone" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="signupPassword" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="signupPassword" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="signupConfirmPassword" class="form-label">Confirm Password</label>
+                            <input type="password" class="form-control" id="signupConfirmPassword" required>
+                        </div>
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="termsCheck" required>
+                            <label class="form-check-label" for="termsCheck">I agree to the <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a></label>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100">Sign Up</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS and Popper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Razorpay Script -->
+    <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+    <!-- Custom JS -->
+    <script src="js/script.js"></script>
+    <style>
+    /* Hero Section */
+    .hero-section {
+        position: relative;
+        height: 90vh;
+        color: white;
+        overflow: hidden;
+    }
+
+    .hero-section::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("images/hero-bg.jpg");
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        filter: blur(4px);
+        transform: scale(1.1); /* Prevents blur edges from showing */
+        z-index: -1;
+    }
+
+    .hero-content {
+        position: relative;
+        z-index: 1;
+        padding: 2rem;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    }
+
+    .hero-text {
+        position: relative;
+        z-index: 2;
+    }
+
+    .hero-line {
+        font-size: 5rem;
+        font-weight: 700;
+        margin: 0;
+        line-height: 1.1;
+    }
+
+    .hero-buttons {
+        position: relative;
+        z-index: 2;
+        margin-top: 2rem;
+    }
+
+    /* Mobile styles for hero section */
+    @media (max-width: 768px) {
+        .hero-section {
+            height: 100vh;
+        }
+
+        .hero-section::before {
+            background-attachment: scroll;
+            filter: blur(3px);
+        }
+
+        .hero-content {
+            padding: 1rem;
+        }
+
+        .hero-line {
+            font-size: 4.5rem;
+            line-height: 1.1;
+        }
+
+        .hero-text {
+            margin-top: 2rem;
+        }
+
+        .hero-section p {
+            font-size: 1.2rem;
+            margin: 1.5rem 0;
+        }
+    }
+
+    .activities-section {
+        padding: 5rem 0;
+        background: var(--bg-color);
+    }
+
+    .activities-row {
+        display: flex;
+        overflow-x: auto;
+        gap: 1rem;
+        padding: 1rem 0;
+        scrollbar-width: thin;
+        scrollbar-color: var(--primary-color) var(--bg-color);
+    }
+
+    .activities-row::-webkit-scrollbar {
+        height: 8px;
+    }
+
+    .activities-row::-webkit-scrollbar-track {
+        background: var(--bg-color);
+        border-radius: 4px;
+    }
+
+    .activities-row::-webkit-scrollbar-thumb {
+        background: var(--primary-color);
+        border-radius: 4px;
+    }
+
+    .activity-item {
+        flex: 0 0 300px;
+        background: var(--card-bg);
+        border-radius: 15px;
+        overflow: hidden;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        transition: all 0.3s ease;
+    }
+
+    .activity-item:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+    }
+
+    .activity-image {
+        height: 200px;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+    }
+
+    .activity-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: linear-gradient(to bottom, rgba(0,0,0,0.2), rgba(0,0,0,0.7));
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        padding: 1.5rem;
+        color: white;
+    }
+
+    .activity-overlay h3 {
+        margin: 0;
+        font-size: 1.4rem;
+        font-weight: 600;
+    }
+
+    .expand-btn {
+        background: var(--primary-color);
+        color: white;
+        border: none;
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+
+    .expand-btn:hover {
+        background: var(--secondary-color);
+        transform: rotate(90deg);
+    }
+
+    .activity-details {
+        padding: 1.5rem;
+        display: none;
+        background: var(--card-bg);
+    }
+
+    .activity-details.active {
+        display: block;
+    }
+
+    .activity-list {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .activity-list li {
+        color: var(--text-color);
+        margin-bottom: 0.5rem;
+        padding-left: 1.5rem;
+        position: relative;
+    }
+
+    .activity-list li::before {
+        content: "•";
+        color: var(--primary-color);
+        position: absolute;
+        left: 0;
+    }
+
+    /* Dark mode styles */
+    body.dark-mode .activity-item {
+        background: rgba(44, 62, 80, 0.95);
+    }
+
+    body.dark-mode .activity-details {
+        background: rgba(44, 62, 80, 0.95);
+    }
+
+    /* Responsive adjustments */
+    @media (max-width: 768px) {
+        .activity-item {
+            flex: 0 0 250px;
+        }
+        
+        .activity-image {
+            height: 180px;
+        }
+    }
+
+    /* Leadership Team Styles */
+    .leadership-row {
+        justify-content: center;
+    }
+
+    .leader-card {
+        background: var(--card-bg);
+        border-radius: 15px;
+        overflow: hidden;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        transition: all 0.3s ease;
+        height: 100%;
+    }
+
+    .leader-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+    }
+
+    .leader-img {
+        width: 100%;
+        padding-top: 150%;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .leader-img img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .leader-info {
+        padding: 1rem;
+        text-align: center;
+    }
+
+    .leader-info h5 {
+        margin: 0;
+        font-size: 1rem;
+        font-weight: 600;
+        color: var(--text-color);
+    }
+
+    .leader-info p {
+        margin: 0.5rem 0;
+        font-size: 0.9rem;
+        color: var(--text-muted);
+    }
+
+    .contact-buttons {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        margin-top: 1rem;
+    }
+
+    .contact-buttons .btn {
+        padding: 0.4rem;
+        font-size: 0.8rem;
+        width: 100%;
+    }
+
+    /* Responsive styles */
+    @media (max-width: 768px) {
+        .leader-card {
+            margin-bottom: 1.5rem;
+        }
+        
+        .leader-img {
+            padding-top: 160%;
+        }
+        
+        .contact-buttons .btn {
+            padding: 0.3rem;
+            font-size: 0.75rem;
+        }
+        
+        .leader-info h5 {
+            font-size: 0.9rem;
+            margin-top: 0.5rem;
+        }
+        
+        .leader-info p {
+            font-size: 0.8rem;
+            margin-bottom: 0.75rem;
+        }
+    }
+
+    /* Dark mode styles */
+    body.dark-mode .leader-card {
+        background: rgba(44, 62, 80, 0.95);
+    }
+
+    body.dark-mode .leader-info h5,
+    body.dark-mode .leader-info p {
+        color: #fff;
+    }
+
+    /* Gallery Styles */
+    .gallery-grid {
+        display: flex;
+        gap: 1.5rem;
+        padding: 0.5rem;
+        overflow-x: auto;
+        scrollbar-width: thin;
+        scrollbar-color: rgba(0, 0, 0, 0.3) transparent;
+        -webkit-overflow-scrolling: touch;
+        scroll-behavior: smooth;
+        padding-bottom: 1rem;
+    }
+
+    .gallery-grid::-webkit-scrollbar {
+        height: 6px;
+    }
+
+    .gallery-grid::-webkit-scrollbar-track {
+        background: red;
+    }
+
+    .gallery-grid::-webkit-scrollbar-thumb {
+        background-color: rgba(0, 0, 0, 0.3);
+        border-radius: 20px;
+    }
+
+    .gallery-item {
+        flex: 0 0 400px;
+        position: relative;
+        cursor: pointer;
+        border-radius: 12px;
+        overflow: hidden;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease;
+    }
+
+    .gallery-image {
+        position: relative;
+        aspect-ratio: 4/3;
+        overflow: hidden;
+    }
+
+    .gallery-image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 0.5s ease;
+    }
+
+    .gallery-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent);
+        display: flex;
+        align-items: flex-end;
+        padding: 1.5rem;
+        opacity: 0;
+        transform: translateY(20px);
+        transition: all 0.4s ease;
+    }
+
+    .gallery-info {
+        color: white;
+        text-align: left;
+        transform: translateY(20px);
+        transition: transform 0.4s ease;
+    }
+
+    .gallery-info h4 {
+        font-size: 1.2rem;
+        margin-bottom: 0.5rem;
+        font-weight: 600;
+    }
+
+    .gallery-info p {
+        font-size: 0.9rem;
+        margin-bottom: 1rem;
+        opacity: 0.9;
+    }
+
+    .view-more {
+        display: inline-block;
+        padding: 0.5rem 1rem;
+        background: rgba(255, 255, 255, 0.2);
+        border-radius: 20px;
+        font-size: 0.8rem;
+        transition: all 0.3s ease;
+    }
+
+    /* Hover Effects */
+    .gallery-item:hover {
+        transform: translateY(-5px);
+    }
+
+    .gallery-item:hover .gallery-image img {
+        transform: scale(1.1);
+    }
+
+    .gallery-item:hover .gallery-overlay {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    .gallery-item:hover .gallery-info {
+        transform: translateY(0);
+    }
+
+    .gallery-item:hover .view-more {
+        background: rgba(255, 255, 255, 0.3);
+    }
+
+    /* Mobile Styles */
+    @media (max-width: 768px) {
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 0.75rem;
+            overflow-x: hidden;
+        }
+
+        .gallery-item {
+            flex: none;
+            width: 100%;
+        }
+
+        .gallery-overlay {
+            padding: 0.75rem;
+        }
+
+        .gallery-info h4 {
+            font-size: 0.9rem;
+            margin-bottom: 0.25rem;
+        }
+
+        .gallery-info p {
+            font-size: 0.7rem;
+            margin-bottom: 0.5rem;
+            display: none;
+        }
+
+        .view-more {
+            padding: 0.25rem 0.5rem;
+            font-size: 0.65rem;
+        }
+    }
+
+    @media (max-width: 576px) {
+        .gallery-grid {
+            gap: 0.5rem;
+        }
+
+        .gallery-info h4 {
+            font-size: 0.8rem;
+        }
+
+        .view-more {
+            display: none;
+        }
+    }
+
+    /* Gallery Modal Styles */
+    #galleryModal .modal-content {
+        background: rgba(0, 0, 0, 0.9);
+    }
+
+    #galleryModal .modal-header {
+        padding: 1rem 1rem 0.5rem;
+    }
+
+    #galleryModal .modal-title {
+        font-size: 1.2rem;
+        font-weight: 500;
+    }
+
+    #galleryCarousel .carousel-item {
+        max-height: 80vh;
+    }
+
+    #galleryCarousel .carousel-item img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+
+    #galleryCarousel .carousel-control-prev,
+    #galleryCarousel .carousel-control-next {
+        width: 10%;
+        opacity: 0.8;
+    }
+
+    #galleryCarousel .carousel-control-prev:hover,
+    #galleryCarousel .carousel-control-next:hover {
+        opacity: 1;
+    }
+
+    @media (max-width: 768px) {
+        #galleryModal .modal-dialog {
+            margin: 0.5rem;
+        }
+
+        #galleryCarousel .carousel-item {
+            max-height: 70vh;
+        }
+
+        #galleryModal .modal-title {
+            font-size: 1rem;
+        }
+    }
+    </style>
+
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        // Activity section expand buttons
+        const expandButtons = document.querySelectorAll('.expand-btn');
+        expandButtons.forEach(button => {
+            button.addEventListener('click', function() {
+                const details = this.closest('.activity-item').querySelector('.activity-details');
+                const icon = this.querySelector('i');
+                details.classList.toggle('active');
+                icon.classList.toggle('fa-plus');
+                icon.classList.toggle('fa-minus');
+            });
+        });
+
+        // Gallery modal handling
+        const galleryModal = document.getElementById('galleryModal');
+        const carouselInner = galleryModal.querySelector('.carousel-inner');
+        const modalTitle = galleryModal.querySelector('.modal-title');
+
+        // Function to load gallery images
+        function loadGalleryImages(folder, title) {
+            // Clear existing carousel items
+            carouselInner.innerHTML = '';
+            modalTitle.textContent = title;
+
+            // Add main image
+            const mainItem = document.createElement('div');
+            mainItem.className = 'carousel-item active';
+            mainItem.innerHTML = `<img src="images/gallery/${folder}/main.jpg" class="d-block w-100" alt="${title}">`;
+            carouselInner.appendChild(mainItem);
+
+            // Load numbered images (1.jpg, 2.jpg, etc.)
+            for(let i = 1; i <= 10; i++) {
+                const item = document.createElement('div');
+                item.className = 'carousel-item';
+                item.innerHTML = `
+                    <img src="images/gallery/${folder}/${i}.jpg" 
+                         class="d-block w-100" 
+                         alt="${title} - Image ${i}"
+                         onerror="this.parentElement.remove()">`;
+                carouselInner.appendChild(item);
+            }
+        }
+
+        // Add click event listeners to gallery items
+        document.querySelectorAll('.gallery-item').forEach(item => {
+            item.addEventListener('click', function() {
+                const folder = this.dataset.folder;
+                const title = this.querySelector('h4').textContent;
+                loadGalleryImages(folder, title);
+            });
+        });
+
+        // Reset carousel when modal is hidden
+        galleryModal.addEventListener('hidden.bs.modal', function() {
+            carouselInner.innerHTML = '';
+        });
+    });
+    </script>
+</body>
+</html> 
